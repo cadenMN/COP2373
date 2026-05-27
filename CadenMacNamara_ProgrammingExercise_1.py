@@ -1,0 +1,58 @@
+
+# Defining variables and constants as global
+LIMIT = 4
+TICKET_LIMIT = 20
+
+sold = 0
+bought = 0
+remaining = TICKET_LIMIT
+buyers = 0
+
+# Main body of code
+def main():
+
+    # Calls to run ticket selling process
+    selling()
+
+    # Prints number of buyers/ end of program
+    print('')
+    print('All tickets sold!')
+    print('There were ' + str(buyers) + ' in total.')
+
+
+# Operation of ticket selling
+def selling():
+
+    # Weren't recognized as global due to later defining
+    global sold
+    global buyers
+
+    # Asks for input, states remaining tickets, totals sold tickets, and totals number of buyers
+    while sold != TICKET_LIMIT:
+        while True:
+            try:
+                bought = int(input('How many tickets do you want? (limit is ' + str(LIMIT) +') '))
+
+                # Catches input higher than LIMIT
+                if bought > LIMIT:
+                    a = b # intentional error to reset input
+
+                sold += bought
+                remaining = TICKET_LIMIT - sold
+                print('')
+                print('The remaining number of tickets is ' + str(remaining))
+                buyers += 1
+                break
+
+            # Catches input that isn't a number
+            except:
+                print('Please buy ' + str(LIMIT) + ' or less tickets!')
+                print('')
+
+
+
+
+
+
+# Calling to run code
+main()
