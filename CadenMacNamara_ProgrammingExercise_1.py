@@ -1,5 +1,5 @@
 
-# Defining variables and constants as global
+# Defining variables and constants
 LIMIT = 4
 TICKET_LIMIT = 20
 
@@ -17,7 +17,7 @@ def main():
     # Prints number of buyers/ end of program
     print('')
     print('All tickets sold!')
-    print('There were ' + str(buyers) + ' in total.')
+    print('There were ' + str(buyers) + ' buyers in total.')
 
 
 # Operation of ticket selling
@@ -37,6 +37,7 @@ def selling():
                 if bought > LIMIT:
                     a = b # intentional error to reset input
 
+                # Totals sold tickets, tells remaining left, and counts buyers
                 sold += bought
                 remaining = TICKET_LIMIT - sold
                 print('')
@@ -46,12 +47,8 @@ def selling():
 
             # Catches input that isn't a number
             except:
-                print('Please buy ' + str(LIMIT) + ' or less tickets!')
                 print('')
-
-
-
-
+                print('Please buy ' + str(LIMIT) + ' or less tickets!')
 
 
 # Calling to run code
