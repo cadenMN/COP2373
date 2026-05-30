@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fab9dbe-f124-479f-bee3-da2afb86d25f" name="Changes" comment="Test 2">
+    <list default="true" id="2fab9dbe-f124-479f-bee3-da2afb86d25f" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadenMacNamara_ProgrammingExercise_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/CadenMacNamara_ProgrammingExercise_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +19,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cadenMN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cadenMN/COP2373.git&quot;,
+    &quot;accountId&quot;: &quot;948f8531-f559-420c-8868-453b6ee3f4dc&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EJwoGECwn4FfqloRTBLiLbdIKS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,15 +47,22 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.CadenMacNamara_ProgrammingExercise_1.executor": "Run",
+    "Python.Debugging_Exercise.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "last_opened_file_path": "C:/Users/cmacg/OneDrive/Documents/COLLEGE (SCF)/Coding Class 2",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cmacg\OneDrive\Documents\COLLEGE (SCF)\Coding Class 2" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,7 +77,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779910157181</updated>
-      <workItem from="1779910157915" duration="5583000" />
+      <workItem from="1779910157915" duration="5827000" />
+      <workItem from="1780019731439" duration="733000" />
+      <workItem from="1780020587146" duration="1610000" />
+      <workItem from="1780159131915" duration="4491000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -82,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779910748100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first attempt">
+      <option name="closed" value="true" />
+      <created>1779916032350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779916032352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first attempt">
+      <option name="closed" value="true" />
+      <created>1780020720884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780020720886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,9 +131,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 2" />
+    <MESSAGE value="first attempt" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/COP2373$CadenMacNamara_ProgrammingExercise_1.coverage" NAME="CadenMacNamara_ProgrammingExercise_1 Coverage Results" MODIFIED="1779915900683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/COP2373$Debugging_Exercise.coverage" NAME="Debugging_Exercise Coverage Results" MODIFIED="1780163405767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/COP2373$CadenMacNamara_ProgrammingExercise_1.coverage" NAME="CadenMacNamara_ProgrammingExercise_1 Coverage Results" MODIFIED="1780020850738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
