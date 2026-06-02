@@ -3,7 +3,7 @@
 LIMIT = 4
 TICKET_LIMIT = 10
 
-sold = 0
+total_sold = 0
 bought = 0
 remaining = TICKET_LIMIT
 buyers = 0
@@ -24,11 +24,11 @@ def main():
 def selling():
 
     # Weren't recognized as global due to later defining
-    global sold
+    global total_sold
     global buyers
 
     # Asks for input, states remaining tickets, totals sold tickets, and totals number of buyers
-    while sold != TICKET_LIMIT:
+    while total_sold != TICKET_LIMIT:
         while True:
             try:
                 bought = int(input('Number of movie tickets you need: (limit is ' + str(LIMIT) +') '))
@@ -38,8 +38,8 @@ def selling():
                     a = b # intentional error to reset input
 
                 # Totals sold tickets, tells remaining left, and counts buyers
-                sold += bought
-                remaining = TICKET_LIMIT - sold
+                total_sold += bought
+                remaining = TICKET_LIMIT - total_sold
                 print('')
                 print('The remaining number of tickets is ' + str(remaining))
                 buyers += 1
