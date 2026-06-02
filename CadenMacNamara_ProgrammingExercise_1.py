@@ -31,7 +31,7 @@ def selling():
     while sold != TICKET_LIMIT:
         while True:
             try:
-                bought = int(input('How many tickets do you want? (limit is ' + str(LIMIT) +') '))
+                bought = int(input('Number of movie tickets you need: (limit is ' + str(LIMIT) +') '))
 
                 # Catches input higher than LIMIT
                 if bought > LIMIT:
