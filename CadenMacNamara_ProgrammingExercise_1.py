@@ -1,7 +1,7 @@
 
 # Defining variables and constants
 LIMIT = 4
-TICKET_LIMIT = 20
+TICKET_LIMIT = 10
 
 sold = 0
 bought = 0
