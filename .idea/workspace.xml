@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fab9dbe-f124-479f-bee3-da2afb86d25f" name="Changes" comment="commit">
+    <list default="true" id="2fab9dbe-f124-479f-bee3-da2afb86d25f" name="Changes" comment="First attempt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,7 +33,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
@@ -43,21 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.CadenMacNamara_ProgrammingExercise_1.executor": "Run",
-    "Python.Debugging_Exercise.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/cmacg/OneDrive/Documents/COLLEGE (SCF)/Coding Class 2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.CadenMacNamara_ProgrammingExercise_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CadenMacNamara_ProgrammingExercise_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Debugging_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cmacg/OneDrive/Documents/COLLEGE (SCF)/Coding Class 2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cmacg\OneDrive\Documents\COLLEGE (SCF)\Coding Class 2" />
@@ -80,7 +83,13 @@
       <workItem from="1779910157915" duration="5827000" />
       <workItem from="1780019731439" duration="733000" />
       <workItem from="1780020587146" duration="1610000" />
-      <workItem from="1780159131915" duration="4491000" />
+      <workItem from="1780159131915" duration="5022000" />
+      <workItem from="1780411331101" duration="2476000" />
+      <workItem from="1781113376542" duration="3134000" />
+      <workItem from="1781285393259" duration="8651000" />
+      <workItem from="1781379013379" duration="342000" />
+      <workItem from="1781379422431" duration="355000" />
+      <workItem from="1781379834150" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -122,20 +131,76 @@
       <option name="project" value="LOCAL" />
       <updated>1780020720886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <option name="closed" value="true" />
+      <created>1780163931805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780163931806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New ticket limit">
+      <option name="closed" value="true" />
+      <created>1780413091075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780413091075</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New input message">
+      <option name="closed" value="true" />
+      <created>1780413275473</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780413275473</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New accumulator variable name">
+      <option name="closed" value="true" />
+      <created>1780413471498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780413471501</updated>
+    </task>
+    <task id="LOCAL-00010" summary="First attempt">
+      <option name="closed" value="true" />
+      <created>1781294052496</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781294052496</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Test 2" />
     <MESSAGE value="first attempt" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="New ticket limit" />
+    <MESSAGE value="New input message" />
+    <MESSAGE value="New accumulator variable name" />
+    <MESSAGE value="First attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="First attempt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COP2373$CadenMacNamara_ProgrammingExercise_2.coverage" NAME="CadenMacNamara_ProgrammingExercise_2 Coverage Results" MODIFIED="1781293663319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/COP2373$Debugging_Exercise.coverage" NAME="Debugging_Exercise Coverage Results" MODIFIED="1780163405767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/COP2373$CadenMacNamara_ProgrammingExercise_1.coverage" NAME="CadenMacNamara_ProgrammingExercise_1 Coverage Results" MODIFIED="1780020850738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
