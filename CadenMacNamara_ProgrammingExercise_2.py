@@ -3,7 +3,7 @@
 def main():
 
     # Asks user to input an email message
-    userMessage = input("Enter an email message: ")
+    userMessage = input("Enter an email message (as a single line): ")
 
     # Runs scan_message to evaluate how likely message is spam
     # and assigns variables from scan_message into this function
