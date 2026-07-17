@@ -37,7 +37,8 @@ def main():
     # Makes a poker hand of 5 cards
     # Deal makes randomization of number between 1 and size entered
     # rank and suit use math to get number's associated rank and suit
-    # Ex: 25, rank = King, suit = Diamonds
+    # Ex: card = 18, rank = 5 -> 7, suit = 0 -> Clubs
+    print()
     for i in range(5):
         card = cardDeck.deal()
         rank = card % 13
