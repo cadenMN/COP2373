@@ -114,11 +114,13 @@ def pop_graph(cities):
     # Display graph of data to user
     years = [row[0] for row in graphData]
     pops = [row[1] for row in graphData]
+    graphTitle = 'Population graph of %s' %cityChoice
 
     plt.plot(years, pops)
     plt.xticks(np.arange(2023, 2044, 2))
     plt.xlabel('Year')
     plt.ylabel('Population')
+    plt.title(graphTitle)
     plt.show()
 
 
